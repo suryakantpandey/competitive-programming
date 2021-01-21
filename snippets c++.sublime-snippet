@@ -1,8 +1,6 @@
 <snippet>
 	<content><![CDATA[
 #include <bits/stdc++.h>
-//Constants
-const ll mod = 1000000007;
 // Define section
 #define     ll                long long
 #define     ul                unsigned long long
@@ -16,18 +14,20 @@ const ll mod = 1000000007;
 #define     gcd               _gcd
 #define     goog(tno)         cout << "Case #" << tno <<": "
 #define     pb                push_back
+//Constants
+const ll mod = 1000000007;
 using namespace std;
 // Functions
 
 void solve()
 {
-    $0
+   $0
 }
 // Main
 int main() {
-    fastio
+    fastio;
     int tz = 1;
-    //cin >> t;
+    //cin >> tz;
     while (tz--)
     {
         solve();
