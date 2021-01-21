@@ -1,0 +1,42 @@
+<snippet>
+	<content><![CDATA[
+#include <bits/stdc++.h>
+//Constants
+const ll mod = 1000000007;
+// Define section
+#define     ll                long long
+#define     ul                unsigned long long
+#define     ld                long double
+#define     rep(i, a, b)      for(int i=(a); i<(b); i++)
+#define     repi(i, a, b)     for(int i=(a); i>(b); i--)
+#define     all(x)            x.begin(), x.end()
+#define     rall(x)           x.rbegin(), x.rend()
+#define     db(x)             (cout<<#x<<":"<<(x)<<'\n')
+#define     fastio            ios_base::sync_with_stdio(false), cin.tie(nullptr)
+#define     gcd               _gcd
+#define     goog(tno)         cout << "Case #" << tno <<": "
+#define     pb                push_back
+using namespace std;
+// Functions
+
+void solve()
+{
+    $0
+}
+// Main
+int main() {
+    fastio
+    int tz = 1;
+    //cin >> t;
+    while (tz--)
+    {
+        solve();
+    }
+    return 0;
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>incl</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
