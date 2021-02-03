@@ -1,7 +1,9 @@
 <snippet>
 	<content><![CDATA[
-#include <bits/stdc++.h>
-// Define section
+// #pragma GCC optimize("Ofast,unroll-loops")
+// #pragma GCC target("sse,sse2,sse3,ssse3,sse4,popcnt,mmx,avx,avx2")
+#include "bits/stdc++.h"
+
 #define     ll                long long
 #define     ul                unsigned long long
 #define     ld                long double
@@ -12,18 +14,23 @@
 #define     db(x)             (cout<<#x<<":"<<(x)<<'\n')
 #define     fastio            ios_base::sync_with_stdio(false), cin.tie(nullptr)
 #define     gcd               _gcd
+#define     lcm(a,b)          __detail::__lcm(a,b)
 #define     goog(tno)         cout << "Case #" << tno <<": "
 #define     pb                push_back
-//Constants
+#define     endl              "\n"
+#define     iceil(n, x)       (((n) + (x) - 1) / (x))
+
 const ll mod = 1000000007;
+const ld pi=3.1415926535897932384626433832795;
+const ll INF=1e18;
+
 using namespace std;
-// Functions
 
 void solve()
 {
-   $0
+    $0
 }
-// Main
+
 int main() {
     fastio;
     int tz = 1;
@@ -36,7 +43,7 @@ int main() {
 }
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>incl</tabTrigger>
+	<tabTrigger>include</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<!-- <scope>source.python</scope> -->
 </snippet>
