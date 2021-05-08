@@ -21,6 +21,7 @@
 #define     pb                push_back
 #define     endl              "\n"
 #define     iceil(n, x)       (((n) + (x) - 1) / (x))
+#define     cps               CLOCKS_PER_SEC
 
 const int mod = 1000000007;
 const ld pi=3.1415926535897932384626433832795;
@@ -30,17 +31,18 @@ using namespace std;
 
 void solve()
 {
-    $0
+   $0
 }
 //special case (n==1?)
 signed main() {
+    clock_t clk = clock();
     fastio;
-    int tz = 1;
-    //cin >> tz;
-    while (tz--)
-    {
-        solve();
-    }
+    int t=1 ;
+    // cin >> t ;
+    while( t-- )
+        solve() ;
+    cerr << "Time (in ms): " << (double)(clock() - clk) * 1000.0 / cps << '\n';
+
     return 0;
 }
 ]]></content>
